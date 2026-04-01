@@ -1,6 +1,4 @@
-# ==============================
 # Surface Level EDA
-# ==============================
 
 import pandas as pd
 import numpy as np
@@ -51,10 +49,7 @@ hol_flag['Sale_Line_Percent'] = (hol_flag['Holiday_Flag'] / total_sale_lines) * 
 
 hol_flag
 
-
-# ==============================
 # Feature Engineering
-# ==============================
 
 df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y', errors='coerce')
 
@@ -77,10 +72,7 @@ sns.heatmap(df.corr(), cmap='Blues', annot=True, fmt=".2f")
 plt.title("Correlation Heatmap")
 plt.show()
 
-
-# ==============================
 # Machine Learning Model
-# ==============================
 
 df2 = df[['Sales_Lag_1', 'Sales_Lag_2', 'MA_3_Week_Lagged', 'Store', 'Weekly_Sales']]
 df2.dropna(inplace=True)
