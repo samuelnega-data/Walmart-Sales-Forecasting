@@ -95,8 +95,104 @@ df.head(5)
 ```python
 df.describe()
 ```
-
-<!-- table stays same -->
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>Weekly_Sales</th>
+      <th>Holiday_Flag</th>
+      <th>Temperature</th>
+      <th>Fuel_Price</th>
+      <th>CPI</th>
+      <th>Unemployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>6435.000000</td>
+      <td>6.435000e+03</td>
+      <td>6435.000000</td>
+      <td>6435.000000</td>
+      <td>6435.000000</td>
+      <td>6435.000000</td>
+      <td>6435.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>23.000000</td>
+      <td>1.046965e+06</td>
+      <td>0.069930</td>
+      <td>60.663782</td>
+      <td>3.358607</td>
+      <td>171.578394</td>
+      <td>7.999151</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>12.988182</td>
+      <td>5.643666e+05</td>
+      <td>0.255049</td>
+      <td>18.444933</td>
+      <td>0.459020</td>
+      <td>39.356712</td>
+      <td>1.875885</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>2.099862e+05</td>
+      <td>0.000000</td>
+      <td>-2.060000</td>
+      <td>2.472000</td>
+      <td>126.064000</td>
+      <td>3.879000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>12.000000</td>
+      <td>5.533501e+05</td>
+      <td>0.000000</td>
+      <td>47.460000</td>
+      <td>2.933000</td>
+      <td>131.735000</td>
+      <td>6.891000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>23.000000</td>
+      <td>9.607460e+05</td>
+      <td>0.000000</td>
+      <td>62.670000</td>
+      <td>3.445000</td>
+      <td>182.616521</td>
+      <td>7.874000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>34.000000</td>
+      <td>1.420159e+06</td>
+      <td>0.000000</td>
+      <td>74.940000</td>
+      <td>3.735000</td>
+      <td>212.743293</td>
+      <td>8.622000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>45.000000</td>
+      <td>3.818686e+06</td>
+      <td>1.000000</td>
+      <td>100.140000</td>
+      <td>4.468000</td>
+      <td>227.232807</td>
+      <td>14.313000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ```python
 df.shape
