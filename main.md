@@ -197,7 +197,7 @@ df.describe()
 ```python
 df.shape
 ```
-
+(6435, 8)
 ```python
 df.isna().sum()
 ```
