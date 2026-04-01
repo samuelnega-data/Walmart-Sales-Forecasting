@@ -8,18 +8,18 @@
 
 ### Introduction
 
-This project focuses on analyzing Walmart’s weekly sales data to uncover key patterns, trends, and drivers influencing store performance. By combining exploratory data analysis (EDA), feature engineering, and machine learning techniques, the goal is to better understand how various factors—such as time, economic indicators, and historical sales—impact overall revenue.
+This project focuses on analyzing Walmart’s weekly sales data to uncover key patterns, trends, and drivers influencing store performance. By combining exploratory data analysis (EDA), feature engineering, and machine learning techniques, the goal is to better understand how various factors such as time, economic indicators, and historical sales impact overall revenue.
 
-The project ultimately aims to build a predictive model capable of estimating future weekly sales with a high degree of accuracy, while also providing meaningful insights that could support data-driven business decisions.
+The project ultimately aims to build a predictive model capable of estimating future weekly sales with a high degree of accuracy, while also providing meaningful insights that could support data driven business decisions.
 
 ---
 
 ### Tools Used
 
-* **Python** – Core programming language for analysis and modeling
-* **Pandas & NumPy** – Data manipulation and numerical computations
-* **Seaborn & Matplotlib** – Data visualization and pattern discovery
-* **Scikit-learn** – Machine learning model building and evaluation
+* **Python**: Core programming language for analysis and modeling
+* **Pandas & NumPy**: Data manipulation and numerical computations
+* **Seaborn & Matplotlib**: Data visualization and pattern discovery
+* **Scikit-learn**: Machine learning model building and evaluation
 
 ---
 
