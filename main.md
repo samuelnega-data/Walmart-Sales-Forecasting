@@ -376,6 +376,14 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 print(f"Residuals Mean: {residuals_mean:.4f}")
 print(f"Residuals Std Dev: {residuals_std:.4f}")
 print(f"Residuals Normality p-value: {p_value:.4f} (p>0.05 suggests normal residuals)")
+
+# output
+R² Score: 0.9093
+Mean Absolute Error (MAE): 85069.3015
+Root Mean Squared Error (RMSE): 163912.6152
+Residuals Mean: 5368.4076
+Residuals Std Dev: 163824.6795
+Residuals Normality p-value: 0.0000 (p>0.05 suggests normal residuals)
 ```
 
 #### Takeaways
