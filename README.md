@@ -1,2 +1,3 @@
-# Walmart-Sales-ML-Model
-Analyzing Walmart Sales, ill walk you through the entire EDA, Feature Engineering and ML building process.
+# Walmart Sales Analysis
+
+<img width="988" height="659" alt="image" src="https://github.com/user-attachments/assets/8be488cd-62f0-4263-b394-7656bd8fbe80" />
