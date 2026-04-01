@@ -201,6 +201,7 @@ df.shape
 ```python
 df.isna().sum()
 
+# output
 Store           0
 Date            0
 Weekly_Sales    0
@@ -214,6 +215,17 @@ dtype: int64
 
 ```python
 df.dtypes
+
+# output
+Store             int64
+Date             object
+Weekly_Sales    float64
+Holiday_Flag      int64
+Temperature     float64
+Fuel_Price      float64
+CPI             float64
+Unemployment    float64
+dtype: object
 ```
 
 ```python
