@@ -1,5 +1,5 @@
 ### Surface Level EDA
-#### Takeaways
+Lets simply explore the dataset in question, this will give us a strong baseline understanding of the stastical measure of the dataset.
 ```python
 import pandas as pd
 import numpy as np
