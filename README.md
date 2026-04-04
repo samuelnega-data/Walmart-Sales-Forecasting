@@ -12,6 +12,8 @@ This project focuses on analyzing Walmart’s weekly sales data to uncover key p
 
 The project ultimately aims to build a predictive model capable of estimating future weekly sales with a high degree of accuracy, while also providing meaningful insights that could support data driven business decisions.
 
+[Click me to open the dataset on kaggle](https://www.kaggle.com/datasets/souravprakashai/walmart-condensed-sales-data)
+
 ---
 
 #### Tools Used
